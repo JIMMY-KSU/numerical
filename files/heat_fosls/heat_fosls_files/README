@@ -1,0 +1,10 @@
+heat_fosls_files README
+
+heat_fosls: this is a file which combines both the coefficient generating 
+	    and the quantity calculation into one file 
+
+to run this file utilize the follwoing command line arguments:
+python heat_fosls.py <n> <denomiator of dt> <tintervals>
+
+for the denominator of dt, if you'd like 1/15.0, you should input 15
+

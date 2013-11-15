@@ -1,0 +1,19 @@
+heat_galerkin_files README
+
+heat_galerkin_single: runs the heat_galerkin approximation using one file
+		      and command line arguments. What quantity is calculated
+		      can be specified by commenting out commented lines in
+	              the main() routine
+
+command line arguments are as follows:
+
+python heat_galerkin_single.py <n> <denominator for dt> <tintervals>
+
+if you want dt = 1/15.0 put 15 as the command line argument
+
+heat_galerkin_gen: interface for calcuating the derivative/energy functions
+	           for the Galerkin approximation to the heat equation
+
+heat_galerkin:     generates the necessary coefficients for heat_galerkin_gen
+
+
