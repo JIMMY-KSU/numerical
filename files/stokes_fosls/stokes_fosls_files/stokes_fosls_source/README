@@ -1,0 +1,11 @@
+stokes_fosls_files README
+
+stokes_fosls_gen: generates the algorithm; defaulted to use stokes_fosls_new
+
+stokes_fosls_new: uses problem specific boundary conditions (were implemented
+		  because we encountered a lot of issues with the more general
+		  FOSLS problem boundary conditions)
+
+stokes_fosls_org: general boundary condition code; contains commented out
+		  sections from trial runs (this code shouldn't really be used
+		  but I thought I would provide it)
