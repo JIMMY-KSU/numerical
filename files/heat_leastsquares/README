@@ -1,0 +1,19 @@
+heat_leastsquares README
+
+heat_foslsgal_gen: calculates the l2norm for both the FOSLS least squares and
+	           FOSLS^2 approximations. It utilizes command line arguments
+	           to specific n, dt, and tintervals (the number of times
+		   to run the approximation).
+
+command line syntax is:
+
+python heat_foslsgal_gen.py <n> <denominator of dt> <tintervals>
+
+if dt = 1/15.0 then input 15 as the command line argument
+
+heat_fosls2: generates the FOSLS^2 norms
+
+heat_foslsgal: generates the FOSLS Least Squares norms
+
+heat_fosls_helper: calculates the energy from the heat FOSLS approximation
+		   which heat_fosls2 and heat_foslsgal take as input
